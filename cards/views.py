@@ -31,5 +31,3 @@ class BoxView(CardListView):
         context = super().get_context_data(**kwargs)
         context['box_number'] = self.kwargs['box_num']
         return context
-    
-# TODO: Mostrando cajas
